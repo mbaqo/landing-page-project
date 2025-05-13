@@ -1,0 +1,104 @@
+:root {
+    --background-color-dark: #1f2937;
+    --color-light-gray: #e5e7eb;
+    --fontcolor-white: #f9faf8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer, main {
+    width: 100%;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 40px;
+}
+
+button a {
+    color: var(--fontcolor-white);
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--background-color-dark);
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo-container h2{
+    color: var(--fontcolor-white); 
+    font-size: 24px;
+}
+
+header .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links a {
+    color: var(--color-light-gray);
+}
+
+/* Hero Section */
+section.hero-section {
+    background-color: var(--background-color-dark);
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 0px;
+}
+
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-text-container h1 {
+    color: var(--fontcolor-white);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-text-container p {
+    color: var(--color-light-gray);
+    font-size: 18px;
+}
+
+.main-image-container img {
+    max-width: 400px;
+    border-radius: 10px;
+}
