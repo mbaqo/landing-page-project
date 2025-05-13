@@ -2,6 +2,7 @@
     --background-color-dark: #1f2937;
     --color-light-gray: #e5e7eb;
     --fontcolor-white: #f9faf8;
+    --fontcolor-black: #1f2937;
 }
 
 * {
@@ -100,5 +101,39 @@ section.hero-section {
 
 .main-image-container img {
     max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Info Section */
+.info-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.info-header h1{
+    font-size: 36px;
+    color: var(--fontcolor-black);
+    font-weight: 900;
+    padding: 50px;
+}
+
+.info-items-container {
+    display: flex;
+    gap: 40px;
+}
+
+.item-info-container {
+    text-align: center;
+}
+
+.item-info-container p {
+    color: var(--fontcolor-black);
+}
+
+.item-info-container img {
+    max-width: 250px;
     border-radius: 10px;
 }
