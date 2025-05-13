@@ -1,0 +1,1 @@
+A landing page project for exercising flex-box skills (The Odin Project)
