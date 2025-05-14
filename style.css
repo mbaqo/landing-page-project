@@ -3,6 +3,7 @@
     --color-light-gray: #e5e7eb;
     --fontcolor-white: #f9faf8;
     --fontcolor-black: #1f2937;
+    --color-blue: #3882f6;
 }
 
 * {
@@ -35,7 +36,7 @@ header, footer, main {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: var(--color-blue);
     border-radius: 10px;
     border: 0;
     padding: 10px 40px;
@@ -158,4 +159,27 @@ section.hero-section {
 .quote-author {
     font-size: 24px;
     align-self: flex-end;
+}
+
+/* Sign up Section */
+.signup-section .container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-blue);
+    border-radius: 10px;
+    padding: 50px 0;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.signup-text-container {
+    color: var(--fontcolor-white);
+}
+
+.signup-text-container p {
+    font-weight: 300;
+}
+
+.signup-section .signup-button-container button {
+    border: 2px solid var(--fontcolor-white);4
 }
